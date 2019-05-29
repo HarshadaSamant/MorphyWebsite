@@ -1,0 +1,1214 @@
+.default-container {
+    max-width: 1366px;
+    margin: 0 auto; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+html, body {
+    margin: 0%;
+    padding: 0;
+    font-family: 'Open sans';
+    position: relative;
+    overflow-x: hidden;
+    background-color: #fff;
+        scroll-behavior: smooth;
+    li, a {
+        text-decoration: none !important;
+        list-style-type: none;
+        cursor: pointer;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+div {
+    margin: 0%;
+    overflow: hidden;
+}
+
+
+
+.pagewrap {
+    header { 
+        .navbar-light .navbar-toggler-icon {
+            background-image: url("../images/menu-three-horizontal-lines-symbol.svg");
+        }
+        nav {
+            background-color: #000000 !important;  
+            .navbar-brand {
+                font-family: 'Courgette', cursive;
+                letter-spacing: 2;
+                text-transform: lowercase;
+                font-size: 30px;
+                margin: 0;
+                padding-left: 20px;
+            }       
+            a {
+                color: #fff !important;
+                font-size: 16px;
+                text-transform: uppercase;
+            }   
+            .collapse {
+                form {
+                    margin-left: 20%;
+                    ul li {
+                        a {
+                            padding-right: 25px !important;
+                            color: #fff !important;
+                        }
+                        .dropdown-menu {
+                            a {
+                                color: #000000 !important;
+                            }
+                        }
+                        .search {
+                            width: 58px;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .first {
+        #carouselExampleIndicators {
+            .carousel-indicators li {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                opacity: unset;
+                margin: 5px;
+            }
+            .carousel-indicators li.active {
+                background-color: rgba(216, 6, 6, 0.89);
+            }
+        }
+    }
+    .second {
+        .breakfast {
+            padding: 50px 40px;
+            .snacking {
+                background-color: #ddd;
+                padding: 0%;
+                img {
+                    width: 100%;
+                }      
+                h1 {
+                    font-weight: 800;
+                    font-size: 72px;
+                    text-transform: uppercase;
+                    color: rgba(75, 75, 75, 0.322);
+                    span {
+                        font-size: 100px;
+                    }                    
+                } 
+                p {
+                    color: rgba(75, 75, 75, 0.589);
+                    padding-right: 12%;
+                    font-size: 19px;
+                }     
+            }
+            .description {
+                padding: 12% 3.2% 0;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+        }
+
+
+    }
+    .third .container3 .shop {
+        #carouselExampleIndicators2 {
+            .carousel-inner {
+                margin: 0 4%;
+                .carousel-item {
+                    width: 95%;
+                    .col-md-4 {
+                        background-color: #ede8e8;
+                        margin: 10px;
+                        max-width: 23% !important;
+                        float: left !important;    
+                        border-radius: 10%;
+                        padding: 20px 0;                    
+                        img {
+                            width: 100%;
+                        }
+                        .checkbox {
+                            /* Hide the browser's default checkbox */
+                            label {
+                                padding: 0 0 0 15%;
+                                color: #000;
+                                font-size: 15px;
+                                position: relative;
+                                input {
+                                    position: absolute;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    height: 0;
+                                    width: 0;
+                                }
+                                .checkmark {
+                                    position: absolute;
+                                    top: 3;
+                                    left: 15;
+                                    height: 18px;
+                                    width: 18px;
+                                    background-color: #eee;
+                                    border: 2px solid #000;
+                                    border-radius: 2px;
+                            /* Style the checkmark/indicator */
+                                    &:after {
+                                        left: 5px;
+                                        top: 2px;
+                                        width: 5px;
+                                        height: 10px;
+                                        border: solid white;
+                                        border-width: 0 3px 3px 0;
+                                        -webkit-transform: rotate(45deg);
+                                        -ms-transform: rotate(45deg);
+                                        transform: rotate(45deg);
+                                    }
+                                }
+                                
+
+                                /* On mouse-over, add a grey background color */
+                                .container:hover input ~ .checkmark {
+                                    background-color: #ccc;
+                                }
+                                
+                                /* When the checkbox is checked, add a blue background */
+                                input:checked ~ .checkmark {
+                                    background-color: #2196F3;
+                                }
+                                
+                                /* Create the checkmark/indicator (hidden when not checked) */
+                                .checkmark:after {
+                                    content: "";
+                                    position: absolute;
+                                    display: none;
+                                }
+                                
+                                /* Show the checkmark when checked */
+                                input:checked ~ .checkmark:after {
+                                    display: block;
+                                }
+                                
+
+                            }
+                        }
+                        .info {
+                            padding: 0 0 0 6%;
+                            .name {
+                                font-weight: 800;
+                                margin: 0;
+                            }
+                            .price {
+                                font-weight: 600;
+                                font-size: 18px;
+                                span {
+                                    text-decoration: line-through;                                    
+                                }
+                                .new {
+                                    text-decoration: none;
+                                    color: rgba(216, 6, 6, 0.89);
+                                    font-weight: 800;
+                                    padding-left: 10px;
+                                }
+                            }
+                            .star {
+                                font-size: 13px;
+                                color: #000000;
+                                font-weight: 600;
+                                .fa {
+                                    color: #cecccc;
+                                }
+                                .checked {
+                                    color: orange;
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            .carousel-control-next, .carousel-control-prev {
+                width: 5%;
+                .carousel-control-prev-icon {
+                    // background-color: #000;
+                    background-image: url("../images/left.svg");
+                }
+                .carousel-control-next-icon {
+                    // background-color: #000;
+                    background-image: url("../images/right.svg");
+                }
+            }
+        }
+        .view {
+            text-align: right;
+            padding: 1% 5% 4%;
+            margin-left: 5%;
+            position: relative;
+            hr {
+                position: absolute;
+                width: 73.7%;
+                top: 8%;
+                border: 1px solid rgba(75, 75, 75, 0.589)
+            }
+            a {
+                text-align: right;
+                background-color: rgba(216, 6, 6, 0.89);
+                color: #fff;
+                text-transform: uppercase;
+                padding: 1% 6%;
+                font-size: 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+    .four {
+        .recipe {
+            background-color: #000;
+            color: #ccc;
+            text-align: center;
+            padding: 20px 0;
+            a {
+                color: #ccc;
+                font-size: 12px;
+            }
+        }
+    }
+    .five {
+        .breakfast {
+            padding: 50px 40px;
+            width: 100%;            
+            margin: 0%;
+            .snacking {
+                float: right !important;
+                background-color: #ddd;
+                padding: 0%;
+                img {
+                    width: 100%;
+                }      
+                h1 {
+                    font-weight: 800;
+                    font-size: 83px;
+                    text-transform: uppercase;
+                    color: rgba(75, 75, 75, 0.322);                    
+                } 
+                p {
+                    color: rgba(75, 75, 75, 0.589);
+                    padding-right: 12%;
+                    font-size: 19px;
+                }     
+            }
+            .description {
+                float: right !important;
+                padding: 10% 3.2% 0;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+            }
+        }
+    }
+    .six .container4 .shop {
+        #carouselExampleIndicators3 {
+            .carousel-inner {
+                margin: 0 4%;
+                .carousel-item {
+                    width: 95%;
+                    .col-md-4 {
+                        background-color: #ede8e8;
+                        margin: 10px;
+                        max-width: 23% !important;
+                        float: left !important;    
+                        border-radius: 10%;
+                        padding: 20px 0;                    
+                        img {
+                            width: 100%;
+                        }
+                        .checkbox {
+                            /* Hide the browser's default checkbox */
+                            label {
+                                padding: 0 0 0 15%;
+                                color: #000;
+                                font-size: 15px;
+                                position: relative;
+                                input {
+                                    position: absolute;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    height: 0;
+                                    width: 0;
+                                }
+                                .checkmark {
+                                    position: absolute;
+                                    top: 3;
+                                    left: 15;
+                                    height: 18px;
+                                    width: 18px;
+                                    background-color: #eee;
+                                    border: 2px solid #000;
+                                    border-radius: 2px;
+                            /* Style the checkmark/indicator */
+                                    &:after {
+                                        left: 5px;
+                                        top: 2px;
+                                        width: 5px;
+                                        height: 10px;
+                                        border: solid white;
+                                        border-width: 0 3px 3px 0;
+                                        -webkit-transform: rotate(45deg);
+                                        -ms-transform: rotate(45deg);
+                                        transform: rotate(45deg);
+                                    }
+                                }
+                                
+
+                                /* On mouse-over, add a grey background color */
+                                .container:hover input ~ .checkmark {
+                                    background-color: #ccc;
+                                }
+                                
+                                /* When the checkbox is checked, add a blue background */
+                                input:checked ~ .checkmark {
+                                    background-color: #2196F3;
+                                }
+                                
+                                /* Create the checkmark/indicator (hidden when not checked) */
+                                .checkmark:after {
+                                    content: "";
+                                    position: absolute;
+                                    display: none;
+                                }
+                                
+                                /* Show the checkmark when checked */
+                                input:checked ~ .checkmark:after {
+                                    display: block;
+                                }
+                                
+
+                            }
+                        }
+                        .info {
+                            padding: 0 0 0 6%;
+                            .name {
+                                font-weight: 800;
+                                margin: 0;
+                            }
+                            .price {
+                                font-weight: 600;
+                                font-size: 18px;
+                                span {
+                                    text-decoration: line-through;                                    
+                                }
+                                .new {
+                                    text-decoration: none;
+                                    color: rgba(216, 6, 6, 0.89);
+                                    font-weight: 800;
+                                    padding-left: 10px;
+                                }
+                            }
+                            .star {
+                                font-size: 13px;
+                                color: #000000;
+                                font-weight: 600;
+                                .fa {
+                                    color: #cecccc;
+                                }
+                                .checked {
+                                    color: orange;
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            .carousel-control-next, .carousel-control-prev {
+                width: 5%;
+                .carousel-control-prev-icon {
+                    // background-color: #000;
+                    background-image: url("../images/left.svg");
+                }
+                .carousel-control-next-icon {
+                    // background-color: #000;
+                    background-image: url("../images/right.svg");
+                }
+            }
+        }
+        .view {
+            text-align: right;
+            padding: 1% 5% 4%;
+            margin-left: 5%;
+            position: relative;
+            hr {
+                position: absolute;
+                width: 73.7%;
+                top: 8%;
+                border: 1px solid rgba(75, 75, 75, 0.589)
+            }
+            a {
+                text-align: right;
+                background-color: rgba(216, 6, 6, 0.89);
+                color: #fff;
+                text-transform: uppercase;
+                padding: 1% 6%;
+                font-size: 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+    .seven {
+        .breakfast {
+            padding: 20px 40px 30px; 
+            .snacking {
+                background-color: #ddd;
+                padding: 0%;
+                img {
+                    width: 100%;
+                }      
+                h1 {
+                    font-weight: 800;
+                    font-size: 72px;
+                    text-transform: uppercase;
+                    color: rgba(75, 75, 75, 0.322);
+                    span {
+                        font-size: 100px;
+                    }                    
+                } 
+                p {
+                    color: rgba(75, 75, 75, 0.589);
+                    padding-right: 12%;
+                    font-size: 19px;
+                }     
+            }
+            .description {
+                padding: 12% 3.2% 0;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+        }
+    }
+    .eight .container5 .shop {
+        #carouselExampleIndicators4 {
+            .carousel-inner {
+                margin: 0 4%;
+                .carousel-item {
+                    width: 95%;
+                    .col-md-4 {
+                        background-color: #ede8e8;
+                        margin: 10px;
+                        max-width: 23% !important;
+                        float: left !important;    
+                        border-radius: 10%;
+                        padding: 20px 0;                    
+                        img {
+                            width: 100%;
+                        }
+                        .checkbox {
+                            /* Hide the browser's default checkbox */
+                            label {
+                                padding: 0 0 0 15%;
+                                color: #000;
+                                font-size: 15px;
+                                position: relative;
+                                input {
+                                    position: absolute;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    height: 0;
+                                    width: 0;
+                                }
+                                .checkmark {
+                                    position: absolute;
+                                    top: 3;
+                                    left: 15;
+                                    height: 18px;
+                                    width: 18px;
+                                    background-color: #eee;
+                                    border: 2px solid #000;
+                                    border-radius: 2px;
+                            /* Style the checkmark/indicator */
+                                    &:after {
+                                        left: 5px;
+                                        top: 2px;
+                                        width: 5px;
+                                        height: 10px;
+                                        border: solid white;
+                                        border-width: 0 3px 3px 0;
+                                        -webkit-transform: rotate(45deg);
+                                        -ms-transform: rotate(45deg);
+                                        transform: rotate(45deg);
+                                    }
+                                }
+                                
+
+                                /* On mouse-over, add a grey background color */
+                                .container:hover input ~ .checkmark {
+                                    background-color: #ccc;
+                                }
+                                
+                                /* When the checkbox is checked, add a blue background */
+                                input:checked ~ .checkmark {
+                                    background-color: #2196F3;
+                                }
+                                
+                                /* Create the checkmark/indicator (hidden when not checked) */
+                                .checkmark:after {
+                                    content: "";
+                                    position: absolute;
+                                    display: none;
+                                }
+                                
+                                /* Show the checkmark when checked */
+                                input:checked ~ .checkmark:after {
+                                    display: block;
+                                }
+                                
+
+                            }
+                        }
+                        .info {
+                            padding: 0 0 0 6%;
+                            .name {
+                                font-weight: 800;
+                                margin: 0;
+                            }
+                            .price {
+                                font-weight: 600;
+                                font-size: 18px;
+                                span {
+                                    text-decoration: line-through;                                    
+                                }
+                                .new {
+                                    text-decoration: none;
+                                    color: rgba(216, 6, 6, 0.89);
+                                    font-weight: 800;
+                                    padding-left: 10px;
+                                }
+                            }
+                            .star {
+                                font-size: 13px;
+                                color: #000000;
+                                font-weight: 600;
+                                .fa {
+                                    color: #cecccc;
+                                }
+                                .checked {
+                                    color: orange;
+                                  }
+                            }
+                        }
+                    }
+                }
+            }
+            .carousel-control-next, .carousel-control-prev {
+                width: 5%;
+                .carousel-control-prev-icon {
+                    // background-color: #000;
+                    background-image: url("../images/left.svg");
+                }
+                .carousel-control-next-icon {
+                    // background-color: #000;
+                    background-image: url("../images/right.svg");
+                }
+            }
+        }
+        .view {
+            text-align: right;
+            padding: 1% 5% 4%;
+            margin-left: 5%;
+            position: relative;
+            hr {
+                position: absolute;
+                width: 73.7%;
+                top: 8%;
+                border: 1px solid rgba(75, 75, 75, 0.589)
+            }
+            a {
+                text-align: right;
+                background-color: rgba(216, 6, 6, 0.89);
+                color: #fff;
+                text-transform: uppercase;
+                padding: 1% 6%;
+                font-size: 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+    .ten {
+        .breakfast {
+            padding: 50px 40px;
+            width: 100%;            
+            margin: 0%;
+            .snacking {
+                float: right !important;
+                background-color: #ddd;
+                padding: 0%;
+                img {
+                    width: 100%;
+                }      
+                h1 {
+                    font-weight: 800;
+                    font-size: 83px;
+                    text-transform: uppercase;
+                    color: rgba(75, 75, 75, 0.322);                    
+                } 
+                p {
+                    color: rgba(75, 75, 75, 0.589);
+                    padding-right: 12%;
+                    font-size: 19px;
+                }     
+            }
+            .description {
+                float: right !important;
+                padding: 10% 3.2% 0;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+            }
+        }
+    }
+    .eleven .container6 .shop {
+        #carouselExampleIndicators5 {
+            .carousel-inner {
+                margin: 0 4%;
+                .carousel-item {
+                    width: 95%;
+                    .col-md-4 {
+                        background-color: #ede8e8;
+                        margin: 10px;
+                        max-width: 23% !important;
+                        float: left !important;    
+                        border-radius: 10%;
+                        padding: 20px 0;                    
+                        img {
+                            width: 100%;
+                        }
+                        .checkbox {
+                            /* Hide the browser's default checkbox */
+                            label {
+                                padding: 0 0 0 15%;
+                                color: #000;
+                                font-size: 15px;
+                                position: relative;
+                                input {
+                                    position: absolute;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    height: 0;
+                                    width: 0;
+                                }
+                                .checkmark {
+                                    position: absolute;
+                                    top: 3;
+                                    left: 15;
+                                    height: 18px;
+                                    width: 18px;
+                                    background-color: #eee;
+                                    border: 2px solid #000;
+                                    border-radius: 2px;
+                            /* Style the checkmark/indicator */
+                                    &:after {
+                                        left: 5px;
+                                        top: 2px;
+                                        width: 5px;
+                                        height: 10px;
+                                        border: solid white;
+                                        border-width: 0 3px 3px 0;
+                                        -webkit-transform: rotate(45deg);
+                                        -ms-transform: rotate(45deg);
+                                        transform: rotate(45deg);
+                                    }
+                                }
+                                
+
+                                /* On mouse-over, add a grey background color */
+                                .container:hover input ~ .checkmark {
+                                    background-color: #ccc;
+                                }
+                                
+                                /* When the checkbox is checked, add a blue background */
+                                input:checked ~ .checkmark {
+                                    background-color: #2196F3;
+                                }
+                                
+                                /* Create the checkmark/indicator (hidden when not checked) */
+                                .checkmark:after {
+                                    content: "";
+                                    position: absolute;
+                                    display: none;
+                                }
+                                
+                                /* Show the checkmark when checked */
+                                input:checked ~ .checkmark:after {
+                                    display: block;
+                                }
+                                
+
+                            }
+                        }
+                        .info {
+                            padding: 0 0 0 6%;
+                            .name {
+                                font-weight: 800;
+                                margin: 0;
+                            }
+                            .price {
+                                font-weight: 600;
+                                font-size: 18px;
+                                span {
+                                    text-decoration: line-through;                                    
+                                }
+                                .new {
+                                    text-decoration: none;
+                                    color: rgba(216, 6, 6, 0.89);
+                                    font-weight: 800;
+                                    padding-left: 10px;
+                                }
+                            }
+                            .star {
+                                font-size: 13px;
+                                color: #000000;
+                                font-weight: 600;
+                                .fa {
+                                    color: #cecccc;
+                                }
+                                .checked {
+                                    color: orange;
+                                  }
+                            }
+
+                        }
+                    }
+                }
+            }
+            .carousel-control-next, .carousel-control-prev {
+                width: 5%;
+                .carousel-control-prev-icon {
+                    // background-color: #000;
+                    background-image: url("../images/left.svg");
+                }
+                .carousel-control-next-icon {
+                    // background-color: #000;
+                    background-image: url("../images/right.svg");
+                }
+            }
+        }
+        .view {
+            text-align: right;
+            padding: 1% 5% 4%;
+            margin-left: 5%;
+            position: relative;
+            hr {
+                position: absolute;
+                width: 73.7%;
+                top: 8%;
+                border: 1px solid rgba(75, 75, 75, 0.589)
+            }
+            a {
+                text-align: right;
+                background-color: rgba(216, 6, 6, 0.89);
+                color: #fff;
+                text-transform: uppercase;
+                padding: 1% 6%;
+                font-size: 15px;
+                border-radius: 2px;
+            }
+        }
+    }
+    footer {
+        padding: 5% 0 0 0;
+        .lists {
+            background-color: #eee;
+            padding: 4% 0 0 7%;
+            .menu {            
+                padding: 2% 0;
+                float: left;
+                text-align: center;
+                ul {
+                    text-align: left;
+                    padding: 0;
+                    li, .heading {
+                        font-weight: 800;
+                        color: rgba(75, 75, 75, 0.589);
+                        font-size: 14px;
+                        padding: 0 0 3px;
+                        a {
+                            font-weight: 400;
+                            color: rgba(75, 75, 75, 0.589);
+                        }
+                    }
+                    .heading {
+                        padding: 0 0 10px;
+                    }
+                }
+                .h2 {
+                    color: #000;
+                    font-weight: 800;
+                    color: rgba(75, 75, 75, 0.589);
+                    font-size: 14px;
+                    padding: 0 0 10px;
+                }
+                p {
+                    font-weight: 400;
+                    color: rgba(75, 75, 75, 0.589);
+                    font-size: 14px;
+                }   
+                .newsletter {
+                    text-align: left;
+                    padding-left: 8%;
+                    .subscribe {
+                        label {
+                            background-color: #fff;
+                            color: #545454;
+                            padding: 2px 20px 3px;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                        input {
+                            outline: none;
+                            border: 2px solid rgba(127, 126, 126, 0.43);
+                            background-color: transparent;
+                            padding: 0 0 3px 10px;
+                            font-size: 13px;
+                            color: rgba(75, 75, 75, 0.589);
+                        }
+                        ::placeholder {
+                            font-size: 12px;
+                            font-weight: 700;
+                            color: rgba(127, 126, 126, 0.43);
+                            outline: none;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            .last {
+                border-right: 1px solid #fff;
+            }
+        }
+        .payment {
+            text-align: center;
+        }
+        .navigation {
+            ul {
+                margin: 0 4%;                
+                li {
+                    padding: 10px 15px;
+                    float: left;
+                    a {
+                        font-weight: 700;
+                        color: rgba(75, 75, 75, 0.46);
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .copy {
+            text-align: center;
+            padding: 1% 0 2%;
+            font-weight: 700;
+            color: rgba(75, 75, 75, 0.46);
+            font-size: 14px;
+        }
+    }
+}
+
+/*--------------------media queries-----------------------*/
+
+@media screen and (max-width: 1440px) {
+    .pagewrap {
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 74%;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .pagewrap {
+        header nav .collapse form {
+            margin-left: 13%;
+        }
+        .five .breakfast .snacking h1 {
+            font-size: 73px;
+        }
+        .seven .breakfast .snacking h1 {
+            font-size: 69px;
+        }
+        footer .navigation ul {
+            margin: 0%;
+        }
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 73.3%;
+        }
+    }   
+}
+
+@media screen and (max-width: 1024px) {
+    .pagewrap header nav .navbar-brand {
+        padding: 0%;
+        font-size: 20px;
+    }
+    .pagewrap header nav .collapse form {
+        margin-left: 10%;
+        ul li a {
+            font-size: 14px;
+        }
+    }
+
+    .pagewrap {
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 72%;
+        }
+    }
+
+    .pagewrap {
+        .second .breakfast .description ,
+        .five .breakfast .description ,
+        .seven .breakfast .description ,
+        .ten .breakfast .description  {
+            padding: 9% 3.2% 0;
+            h1{
+                font-size: 45px;
+                span {
+                    font-size: 70px;
+                }
+            }
+        }
+        .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item,        
+        .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item,
+        .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item,
+        .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item {
+            width: 100%;
+            .col-md-4 {
+                max-width: 45% !important;
+                .checkbox label .checkmark {
+                    left: 35;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pagewrap {
+        .second .breakfast .description,
+        .five .breakfast .description,
+        .seven .breakfast .description,
+        .ten .breakfast .description {
+            padding: 2% 3.2% 0;
+            h1 {
+                font-size: 32px;
+                span {
+                    font-size: 52px;
+                }
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 70%;
+        }
+        footer {
+            .navigation ul {
+                padding: 0 9%;
+            }
+            .lists {
+                padding: 4% 0 0 2%;
+            }
+        }
+    }
+    .pagewrap {
+        .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+        .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+        .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+        .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+            max-width: 45% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .pagewrap header nav .collapse form {
+        margin-left: 3%;
+    }
+    .pagewrap {
+        .second .breakfast .snacking h1,
+        .five .breakfast .snacking h1,
+        .seven .breakfast .snacking h1,
+        .ten .breakfast .snacking h1 {
+            font-size: 62px;
+            span {
+                font-size: 90px;
+            }
+        }
+    }
+    .pagewrap {
+        .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+        .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+        .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+        .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+            max-width: 45% !important;
+        }
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 68.5%;
+        }
+    }
+    .pagewrap {
+        footer {
+                .lists {
+                padding: 4% 0 0 3%;
+                .menu {
+                    width: 25%;
+                }
+                .menu.lastcol {
+                    width: 50%;
+                }
+                .last {
+                    border-right: none;
+                }
+            }
+            .navigation ul {
+                margin: 0%;
+                padding: 0 0 0 2%;
+                li {
+                    padding: 10px 14px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+    .pagewrap header nav .navbar-brand {
+        font-size: 22px;
+    }
+    .pagewrap {
+        .second .breakfast .snacking ,
+        .five .breakfast .snacking ,
+        .seven .breakfast .snacking , 
+        .ten .breakfast .snacking  {
+            h1 {    
+                font-size: 32px;
+                span {
+                    font-size: 45px;
+                }
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .pagewrap {
+        .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+        .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+        .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+        .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+            max-width: 100% !important;
+        }
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 60%;
+        }
+    }
+    .pagewrap footer {
+        .lists {       
+            .menu {
+                width: 100%;
+                ul {
+                    text-align: center;
+                }
+                .newsletter {
+                    padding: 0%;
+                    text-align: center;
+                }
+            }
+            .menu.lastcol {
+                width: 100%;
+            }
+        }
+        .navigation {
+            padding-bottom: 20px;
+            ul li {
+                padding: 10px 13px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 414px) {
+    .pagewrap {
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 62%;
+        }
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .pagewrap {
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 62.5%;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pagewrap {
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 60.5%;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pagewrap {
+        .third .container3 .shop .view hr,
+        .six .container4 .shop .view hr,
+        .eight .container5 .shop .view hr,
+        .eleven .container6 .shop .view hr {
+            width: 58%;
+        }
+    }
+}

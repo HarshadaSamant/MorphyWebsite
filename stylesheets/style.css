@@ -1,0 +1,1337 @@
+/* line 1, ../sass/style.scss */
+.default-container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/style.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* line 12, ../sass/style.scss */
+html, body {
+  margin: 0%;
+  padding: 0;
+  font-family: 'Open sans';
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+/* line 20, ../sass/style.scss */
+html li, html a, body li, body a {
+  text-decoration: none !important;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+/* line 27, ../sass/style.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 31, ../sass/style.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 35, ../sass/style.scss */
+div {
+  margin: 0%;
+  overflow: hidden;
+}
+
+/* line 44, ../sass/style.scss */
+.pagewrap header .navbar-light .navbar-toggler-icon {
+  background-image: url("../images/menu-three-horizontal-lines-symbol.svg");
+}
+/* line 47, ../sass/style.scss */
+.pagewrap header nav {
+  background-color: #000000 !important;
+}
+/* line 49, ../sass/style.scss */
+.pagewrap header nav .navbar-brand {
+  font-family: 'Courgette', cursive;
+  letter-spacing: 2;
+  text-transform: lowercase;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 20px;
+}
+/* line 57, ../sass/style.scss */
+.pagewrap header nav a {
+  color: #fff !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 63, ../sass/style.scss */
+.pagewrap header nav .collapse form {
+  margin-left: 20%;
+}
+/* line 66, ../sass/style.scss */
+.pagewrap header nav .collapse form ul li a {
+  padding-right: 25px !important;
+  color: #fff !important;
+}
+/* line 71, ../sass/style.scss */
+.pagewrap header nav .collapse form ul li .dropdown-menu a {
+  color: #000000 !important;
+}
+/* line 75, ../sass/style.scss */
+.pagewrap header nav .collapse form ul li .search {
+  width: 58px;
+}
+/* line 77, ../sass/style.scss */
+.pagewrap header nav .collapse form ul li .search img {
+  width: 100%;
+}
+/* line 88, ../sass/style.scss */
+.pagewrap .first #carouselExampleIndicators .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: unset;
+  margin: 5px;
+}
+/* line 95, ../sass/style.scss */
+.pagewrap .first #carouselExampleIndicators .carousel-indicators li.active {
+  background-color: rgba(216, 6, 6, 0.89);
+}
+/* line 101, ../sass/style.scss */
+.pagewrap .second .breakfast {
+  padding: 50px 40px;
+}
+/* line 103, ../sass/style.scss */
+.pagewrap .second .breakfast .snacking {
+  background-color: #ddd;
+  padding: 0%;
+}
+/* line 106, ../sass/style.scss */
+.pagewrap .second .breakfast .snacking img {
+  width: 100%;
+}
+/* line 109, ../sass/style.scss */
+.pagewrap .second .breakfast .snacking h1 {
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: rgba(75, 75, 75, 0.322);
+}
+/* line 114, ../sass/style.scss */
+.pagewrap .second .breakfast .snacking h1 span {
+  font-size: 100px;
+}
+/* line 118, ../sass/style.scss */
+.pagewrap .second .breakfast .snacking p {
+  color: rgba(75, 75, 75, 0.589);
+  padding-right: 12%;
+  font-size: 19px;
+}
+/* line 124, ../sass/style.scss */
+.pagewrap .second .breakfast .description {
+  padding: 12% 3.2% 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+/* line 135, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner {
+  margin: 0 4%;
+}
+/* line 137, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item {
+  width: 95%;
+}
+/* line 139, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 {
+  background-color: #ede8e8;
+  margin: 10px;
+  max-width: 23% !important;
+  float: left !important;
+  border-radius: 10%;
+  padding: 20px 0;
+}
+/* line 146, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 img {
+  width: 100%;
+}
+/* line 149, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox {
+  /* Hide the browser's default checkbox */
+}
+/* line 151, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label {
+  padding: 0 0 0 15%;
+  color: #000;
+  font-size: 15px;
+  position: relative;
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+}
+/* line 156, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* line 163, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark {
+  position: absolute;
+  top: 3;
+  left: 15;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border: 2px solid #000;
+  border-radius: 2px;
+  /* Style the checkmark/indicator */
+}
+/* line 173, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 188, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* line 193, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* line 198, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* line 205, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark:after {
+  display: block;
+}
+/* line 212, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info {
+  padding: 0 0 0 6%;
+}
+/* line 214, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .name {
+  font-weight: 800;
+  margin: 0;
+}
+/* line 218, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .price {
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 221, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .price span {
+  text-decoration: line-through;
+}
+/* line 224, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .price .new {
+  text-decoration: none;
+  color: rgba(216, 6, 6, 0.89);
+  font-weight: 800;
+  padding-left: 10px;
+}
+/* line 231, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .star {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+}
+/* line 235, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .star .fa {
+  color: #cecccc;
+}
+/* line 238, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .info .star .checked {
+  color: orange;
+}
+/* line 246, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-control-next, .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-control-prev {
+  width: 5%;
+}
+/* line 248, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-control-next .carousel-control-prev-icon, .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("../images/left.svg");
+}
+/* line 252, ../sass/style.scss */
+.pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-control-next .carousel-control-next-icon, .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-control-prev .carousel-control-next-icon {
+  background-image: url("../images/right.svg");
+}
+/* line 258, ../sass/style.scss */
+.pagewrap .third .container3 .shop .view {
+  text-align: right;
+  padding: 1% 5% 4%;
+  margin-left: 5%;
+  position: relative;
+}
+/* line 263, ../sass/style.scss */
+.pagewrap .third .container3 .shop .view hr {
+  position: absolute;
+  width: 73.7%;
+  top: 8%;
+  border: 1px solid rgba(75, 75, 75, 0.589);
+}
+/* line 269, ../sass/style.scss */
+.pagewrap .third .container3 .shop .view a {
+  text-align: right;
+  background-color: rgba(216, 6, 6, 0.89);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1% 6%;
+  font-size: 15px;
+  border-radius: 2px;
+}
+/* line 281, ../sass/style.scss */
+.pagewrap .four .recipe {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 286, ../sass/style.scss */
+.pagewrap .four .recipe a {
+  color: #ccc;
+  font-size: 12px;
+}
+/* line 293, ../sass/style.scss */
+.pagewrap .five .breakfast {
+  padding: 50px 40px;
+  width: 100%;
+  margin: 0%;
+}
+/* line 297, ../sass/style.scss */
+.pagewrap .five .breakfast .snacking {
+  float: right !important;
+  background-color: #ddd;
+  padding: 0%;
+}
+/* line 301, ../sass/style.scss */
+.pagewrap .five .breakfast .snacking img {
+  width: 100%;
+}
+/* line 304, ../sass/style.scss */
+.pagewrap .five .breakfast .snacking h1 {
+  font-weight: 800;
+  font-size: 83px;
+  text-transform: uppercase;
+  color: rgba(75, 75, 75, 0.322);
+}
+/* line 310, ../sass/style.scss */
+.pagewrap .five .breakfast .snacking p {
+  color: rgba(75, 75, 75, 0.589);
+  padding-right: 12%;
+  font-size: 19px;
+}
+/* line 316, ../sass/style.scss */
+.pagewrap .five .breakfast .description {
+  float: right !important;
+  padding: 10% 3.2% 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+/* line 326, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner {
+  margin: 0 4%;
+}
+/* line 328, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item {
+  width: 95%;
+}
+/* line 330, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 {
+  background-color: #ede8e8;
+  margin: 10px;
+  max-width: 23% !important;
+  float: left !important;
+  border-radius: 10%;
+  padding: 20px 0;
+}
+/* line 337, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 img {
+  width: 100%;
+}
+/* line 340, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox {
+  /* Hide the browser's default checkbox */
+}
+/* line 342, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label {
+  padding: 0 0 0 15%;
+  color: #000;
+  font-size: 15px;
+  position: relative;
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+}
+/* line 347, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* line 354, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark {
+  position: absolute;
+  top: 3;
+  left: 15;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border: 2px solid #000;
+  border-radius: 2px;
+  /* Style the checkmark/indicator */
+}
+/* line 364, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 379, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* line 384, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* line 389, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* line 396, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark:after {
+  display: block;
+}
+/* line 403, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info {
+  padding: 0 0 0 6%;
+}
+/* line 405, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .name {
+  font-weight: 800;
+  margin: 0;
+}
+/* line 409, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .price {
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 412, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .price span {
+  text-decoration: line-through;
+}
+/* line 415, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .price .new {
+  text-decoration: none;
+  color: rgba(216, 6, 6, 0.89);
+  font-weight: 800;
+  padding-left: 10px;
+}
+/* line 422, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .star {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+}
+/* line 426, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .star .fa {
+  color: #cecccc;
+}
+/* line 429, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .info .star .checked {
+  color: orange;
+}
+/* line 437, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-control-next, .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-control-prev {
+  width: 5%;
+}
+/* line 439, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-control-next .carousel-control-prev-icon, .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("../images/left.svg");
+}
+/* line 443, ../sass/style.scss */
+.pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-control-next .carousel-control-next-icon, .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-control-prev .carousel-control-next-icon {
+  background-image: url("../images/right.svg");
+}
+/* line 449, ../sass/style.scss */
+.pagewrap .six .container4 .shop .view {
+  text-align: right;
+  padding: 1% 5% 4%;
+  margin-left: 5%;
+  position: relative;
+}
+/* line 454, ../sass/style.scss */
+.pagewrap .six .container4 .shop .view hr {
+  position: absolute;
+  width: 73.7%;
+  top: 8%;
+  border: 1px solid rgba(75, 75, 75, 0.589);
+}
+/* line 460, ../sass/style.scss */
+.pagewrap .six .container4 .shop .view a {
+  text-align: right;
+  background-color: rgba(216, 6, 6, 0.89);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1% 6%;
+  font-size: 15px;
+  border-radius: 2px;
+}
+/* line 472, ../sass/style.scss */
+.pagewrap .seven .breakfast {
+  padding: 20px 40px 30px;
+}
+/* line 474, ../sass/style.scss */
+.pagewrap .seven .breakfast .snacking {
+  background-color: #ddd;
+  padding: 0%;
+}
+/* line 477, ../sass/style.scss */
+.pagewrap .seven .breakfast .snacking img {
+  width: 100%;
+}
+/* line 480, ../sass/style.scss */
+.pagewrap .seven .breakfast .snacking h1 {
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: rgba(75, 75, 75, 0.322);
+}
+/* line 485, ../sass/style.scss */
+.pagewrap .seven .breakfast .snacking h1 span {
+  font-size: 100px;
+}
+/* line 489, ../sass/style.scss */
+.pagewrap .seven .breakfast .snacking p {
+  color: rgba(75, 75, 75, 0.589);
+  padding-right: 12%;
+  font-size: 19px;
+}
+/* line 495, ../sass/style.scss */
+.pagewrap .seven .breakfast .description {
+  padding: 12% 3.2% 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+/* line 504, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner {
+  margin: 0 4%;
+}
+/* line 506, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item {
+  width: 95%;
+}
+/* line 508, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 {
+  background-color: #ede8e8;
+  margin: 10px;
+  max-width: 23% !important;
+  float: left !important;
+  border-radius: 10%;
+  padding: 20px 0;
+}
+/* line 515, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 img {
+  width: 100%;
+}
+/* line 518, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox {
+  /* Hide the browser's default checkbox */
+}
+/* line 520, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label {
+  padding: 0 0 0 15%;
+  color: #000;
+  font-size: 15px;
+  position: relative;
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+}
+/* line 525, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* line 532, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark {
+  position: absolute;
+  top: 3;
+  left: 15;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border: 2px solid #000;
+  border-radius: 2px;
+  /* Style the checkmark/indicator */
+}
+/* line 542, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 557, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* line 562, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* line 567, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* line 574, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark:after {
+  display: block;
+}
+/* line 581, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info {
+  padding: 0 0 0 6%;
+}
+/* line 583, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .name {
+  font-weight: 800;
+  margin: 0;
+}
+/* line 587, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .price {
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 590, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .price span {
+  text-decoration: line-through;
+}
+/* line 593, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .price .new {
+  text-decoration: none;
+  color: rgba(216, 6, 6, 0.89);
+  font-weight: 800;
+  padding-left: 10px;
+}
+/* line 600, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .star {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+}
+/* line 604, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .star .fa {
+  color: #cecccc;
+}
+/* line 607, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .info .star .checked {
+  color: orange;
+}
+/* line 615, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-control-next, .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-control-prev {
+  width: 5%;
+}
+/* line 617, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-control-next .carousel-control-prev-icon, .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("../images/left.svg");
+}
+/* line 621, ../sass/style.scss */
+.pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-control-next .carousel-control-next-icon, .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-control-prev .carousel-control-next-icon {
+  background-image: url("../images/right.svg");
+}
+/* line 627, ../sass/style.scss */
+.pagewrap .eight .container5 .shop .view {
+  text-align: right;
+  padding: 1% 5% 4%;
+  margin-left: 5%;
+  position: relative;
+}
+/* line 632, ../sass/style.scss */
+.pagewrap .eight .container5 .shop .view hr {
+  position: absolute;
+  width: 73.7%;
+  top: 8%;
+  border: 1px solid rgba(75, 75, 75, 0.589);
+}
+/* line 638, ../sass/style.scss */
+.pagewrap .eight .container5 .shop .view a {
+  text-align: right;
+  background-color: rgba(216, 6, 6, 0.89);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1% 6%;
+  font-size: 15px;
+  border-radius: 2px;
+}
+/* line 650, ../sass/style.scss */
+.pagewrap .ten .breakfast {
+  padding: 50px 40px;
+  width: 100%;
+  margin: 0%;
+}
+/* line 654, ../sass/style.scss */
+.pagewrap .ten .breakfast .snacking {
+  float: right !important;
+  background-color: #ddd;
+  padding: 0%;
+}
+/* line 658, ../sass/style.scss */
+.pagewrap .ten .breakfast .snacking img {
+  width: 100%;
+}
+/* line 661, ../sass/style.scss */
+.pagewrap .ten .breakfast .snacking h1 {
+  font-weight: 800;
+  font-size: 83px;
+  text-transform: uppercase;
+  color: rgba(75, 75, 75, 0.322);
+}
+/* line 667, ../sass/style.scss */
+.pagewrap .ten .breakfast .snacking p {
+  color: rgba(75, 75, 75, 0.589);
+  padding-right: 12%;
+  font-size: 19px;
+}
+/* line 673, ../sass/style.scss */
+.pagewrap .ten .breakfast .description {
+  float: right !important;
+  padding: 10% 3.2% 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+/* line 683, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner {
+  margin: 0 4%;
+}
+/* line 685, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item {
+  width: 95%;
+}
+/* line 687, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+  background-color: #ede8e8;
+  margin: 10px;
+  max-width: 23% !important;
+  float: left !important;
+  border-radius: 10%;
+  padding: 20px 0;
+}
+/* line 694, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 img {
+  width: 100%;
+}
+/* line 697, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox {
+  /* Hide the browser's default checkbox */
+}
+/* line 699, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label {
+  padding: 0 0 0 15%;
+  color: #000;
+  font-size: 15px;
+  position: relative;
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+}
+/* line 704, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* line 711, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark {
+  position: absolute;
+  top: 3;
+  left: 15;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border: 2px solid #000;
+  border-radius: 2px;
+  /* Style the checkmark/indicator */
+}
+/* line 721, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 736, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* line 741, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+/* line 746, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* line 753, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label input:checked ~ .checkmark:after {
+  display: block;
+}
+/* line 760, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info {
+  padding: 0 0 0 6%;
+}
+/* line 762, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .name {
+  font-weight: 800;
+  margin: 0;
+}
+/* line 766, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .price {
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 769, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .price span {
+  text-decoration: line-through;
+}
+/* line 772, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .price .new {
+  text-decoration: none;
+  color: rgba(216, 6, 6, 0.89);
+  font-weight: 800;
+  padding-left: 10px;
+}
+/* line 779, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .star {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+}
+/* line 783, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .star .fa {
+  color: #cecccc;
+}
+/* line 786, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .info .star .checked {
+  color: orange;
+}
+/* line 795, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-control-next, .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-control-prev {
+  width: 5%;
+}
+/* line 797, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-control-next .carousel-control-prev-icon, .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("../images/left.svg");
+}
+/* line 801, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-control-next .carousel-control-next-icon, .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-control-prev .carousel-control-next-icon {
+  background-image: url("../images/right.svg");
+}
+/* line 807, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop .view {
+  text-align: right;
+  padding: 1% 5% 4%;
+  margin-left: 5%;
+  position: relative;
+}
+/* line 812, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop .view hr {
+  position: absolute;
+  width: 73.7%;
+  top: 8%;
+  border: 1px solid rgba(75, 75, 75, 0.589);
+}
+/* line 818, ../sass/style.scss */
+.pagewrap .eleven .container6 .shop .view a {
+  text-align: right;
+  background-color: rgba(216, 6, 6, 0.89);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1% 6%;
+  font-size: 15px;
+  border-radius: 2px;
+}
+/* line 829, ../sass/style.scss */
+.pagewrap footer {
+  padding: 5% 0 0 0;
+}
+/* line 831, ../sass/style.scss */
+.pagewrap footer .lists {
+  background-color: #eee;
+  padding: 4% 0 0 7%;
+}
+/* line 834, ../sass/style.scss */
+.pagewrap footer .lists .menu {
+  padding: 2% 0;
+  float: left;
+  text-align: center;
+}
+/* line 838, ../sass/style.scss */
+.pagewrap footer .lists .menu ul {
+  text-align: left;
+  padding: 0;
+}
+/* line 841, ../sass/style.scss */
+.pagewrap footer .lists .menu ul li, .pagewrap footer .lists .menu ul .heading {
+  font-weight: 800;
+  color: rgba(75, 75, 75, 0.589);
+  font-size: 14px;
+  padding: 0 0 3px;
+}
+/* line 846, ../sass/style.scss */
+.pagewrap footer .lists .menu ul li a, .pagewrap footer .lists .menu ul .heading a {
+  font-weight: 400;
+  color: rgba(75, 75, 75, 0.589);
+}
+/* line 851, ../sass/style.scss */
+.pagewrap footer .lists .menu ul .heading {
+  padding: 0 0 10px;
+}
+/* line 855, ../sass/style.scss */
+.pagewrap footer .lists .menu .h2 {
+  color: #000;
+  font-weight: 800;
+  color: rgba(75, 75, 75, 0.589);
+  font-size: 14px;
+  padding: 0 0 10px;
+}
+/* line 862, ../sass/style.scss */
+.pagewrap footer .lists .menu p {
+  font-weight: 400;
+  color: rgba(75, 75, 75, 0.589);
+  font-size: 14px;
+}
+/* line 867, ../sass/style.scss */
+.pagewrap footer .lists .menu .newsletter {
+  text-align: left;
+  padding-left: 8%;
+}
+/* line 871, ../sass/style.scss */
+.pagewrap footer .lists .menu .newsletter .subscribe label {
+  background-color: #fff;
+  color: #545454;
+  padding: 2px 20px 3px;
+  font-size: 13px;
+  font-weight: 700;
+}
+/* line 878, ../sass/style.scss */
+.pagewrap footer .lists .menu .newsletter .subscribe input {
+  outline: none;
+  border: 2px solid rgba(127, 126, 126, 0.43);
+  background-color: transparent;
+  padding: 0 0 3px 10px;
+  font-size: 13px;
+  color: rgba(75, 75, 75, 0.589);
+}
+/* line 886, ../sass/style.scss */
+.pagewrap footer .lists .menu .newsletter .subscribe ::placeholder {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(127, 126, 126, 0.43);
+  outline: none;
+  vertical-align: middle;
+}
+/* line 896, ../sass/style.scss */
+.pagewrap footer .lists .last {
+  border-right: 1px solid #fff;
+}
+/* line 900, ../sass/style.scss */
+.pagewrap footer .payment {
+  text-align: center;
+}
+/* line 904, ../sass/style.scss */
+.pagewrap footer .navigation ul {
+  margin: 0 4%;
+}
+/* line 906, ../sass/style.scss */
+.pagewrap footer .navigation ul li {
+  padding: 10px 15px;
+  float: left;
+}
+/* line 909, ../sass/style.scss */
+.pagewrap footer .navigation ul li a {
+  font-weight: 700;
+  color: rgba(75, 75, 75, 0.46);
+  font-size: 14px;
+}
+/* line 917, ../sass/style.scss */
+.pagewrap footer .copy {
+  text-align: center;
+  padding: 1% 0 2%;
+  font-weight: 700;
+  color: rgba(75, 75, 75, 0.46);
+  font-size: 14px;
+}
+
+/*--------------------media queries-----------------------*/
+@media screen and (max-width: 1440px) {
+  /* line 931, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 74%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  /* line 942, ../sass/style.scss */
+  .pagewrap header nav .collapse form {
+    margin-left: 13%;
+  }
+  /* line 945, ../sass/style.scss */
+  .pagewrap .five .breakfast .snacking h1 {
+    font-size: 73px;
+  }
+  /* line 948, ../sass/style.scss */
+  .pagewrap .seven .breakfast .snacking h1 {
+    font-size: 69px;
+  }
+  /* line 951, ../sass/style.scss */
+  .pagewrap footer .navigation ul {
+    margin: 0%;
+  }
+  /* line 954, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 73.3%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 964, ../sass/style.scss */
+  .pagewrap header nav .navbar-brand {
+    padding: 0%;
+    font-size: 20px;
+  }
+
+  /* line 968, ../sass/style.scss */
+  .pagewrap header nav .collapse form {
+    margin-left: 10%;
+  }
+  /* line 970, ../sass/style.scss */
+  .pagewrap header nav .collapse form ul li a {
+    font-size: 14px;
+  }
+
+  /* line 976, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 72%;
+  }
+
+  /* line 985, ../sass/style.scss */
+  .pagewrap .second .breakfast .description,
+  .pagewrap .five .breakfast .description,
+  .pagewrap .seven .breakfast .description,
+  .pagewrap .ten .breakfast .description {
+    padding: 9% 3.2% 0;
+  }
+  /* line 990, ../sass/style.scss */
+  .pagewrap .second .breakfast .description h1,
+  .pagewrap .five .breakfast .description h1,
+  .pagewrap .seven .breakfast .description h1,
+  .pagewrap .ten .breakfast .description h1 {
+    font-size: 45px;
+  }
+  /* line 992, ../sass/style.scss */
+  .pagewrap .second .breakfast .description h1 span,
+  .pagewrap .five .breakfast .description h1 span,
+  .pagewrap .seven .breakfast .description h1 span,
+  .pagewrap .ten .breakfast .description h1 span {
+    font-size: 70px;
+  }
+  /* line 997, ../sass/style.scss */
+  .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item,
+  .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item,
+  .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item,
+  .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item {
+    width: 100%;
+  }
+  /* line 1002, ../sass/style.scss */
+  .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+    max-width: 45% !important;
+  }
+  /* line 1004, ../sass/style.scss */
+  .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark,
+  .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark,
+  .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark,
+  .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 .checkbox label .checkmark {
+    left: 35;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 1014, ../sass/style.scss */
+  .pagewrap .second .breakfast .description,
+  .pagewrap .five .breakfast .description,
+  .pagewrap .seven .breakfast .description,
+  .pagewrap .ten .breakfast .description {
+    padding: 2% 3.2% 0;
+  }
+  /* line 1019, ../sass/style.scss */
+  .pagewrap .second .breakfast .description h1,
+  .pagewrap .five .breakfast .description h1,
+  .pagewrap .seven .breakfast .description h1,
+  .pagewrap .ten .breakfast .description h1 {
+    font-size: 32px;
+  }
+  /* line 1021, ../sass/style.scss */
+  .pagewrap .second .breakfast .description h1 span,
+  .pagewrap .five .breakfast .description h1 span,
+  .pagewrap .seven .breakfast .description h1 span,
+  .pagewrap .ten .breakfast .description h1 span {
+    font-size: 52px;
+  }
+  /* line 1025, ../sass/style.scss */
+  .pagewrap .second .breakfast .description p,
+  .pagewrap .five .breakfast .description p,
+  .pagewrap .seven .breakfast .description p,
+  .pagewrap .ten .breakfast .description p {
+    font-size: 17px;
+  }
+  /* line 1029, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 70%;
+  }
+  /* line 1036, ../sass/style.scss */
+  .pagewrap footer .navigation ul {
+    padding: 0 9%;
+  }
+  /* line 1039, ../sass/style.scss */
+  .pagewrap footer .lists {
+    padding: 4% 0 0 2%;
+  }
+
+  /* line 1045, ../sass/style.scss */
+  .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+    max-width: 45% !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 1055, ../sass/style.scss */
+  .pagewrap header nav .collapse form {
+    margin-left: 3%;
+  }
+
+  /* line 1059, ../sass/style.scss */
+  .pagewrap .second .breakfast .snacking h1,
+  .pagewrap .five .breakfast .snacking h1,
+  .pagewrap .seven .breakfast .snacking h1,
+  .pagewrap .ten .breakfast .snacking h1 {
+    font-size: 62px;
+  }
+  /* line 1064, ../sass/style.scss */
+  .pagewrap .second .breakfast .snacking h1 span,
+  .pagewrap .five .breakfast .snacking h1 span,
+  .pagewrap .seven .breakfast .snacking h1 span,
+  .pagewrap .ten .breakfast .snacking h1 span {
+    font-size: 90px;
+  }
+
+  /* line 1070, ../sass/style.scss */
+  .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+    max-width: 45% !important;
+  }
+  /* line 1076, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 68.5%;
+  }
+
+  /* line 1085, ../sass/style.scss */
+  .pagewrap footer .lists {
+    padding: 4% 0 0 3%;
+  }
+  /* line 1087, ../sass/style.scss */
+  .pagewrap footer .lists .menu {
+    width: 25%;
+  }
+  /* line 1090, ../sass/style.scss */
+  .pagewrap footer .lists .menu.lastcol {
+    width: 50%;
+  }
+  /* line 1093, ../sass/style.scss */
+  .pagewrap footer .lists .last {
+    border-right: none;
+  }
+  /* line 1097, ../sass/style.scss */
+  .pagewrap footer .navigation ul {
+    margin: 0%;
+    padding: 0 0 0 2%;
+  }
+  /* line 1100, ../sass/style.scss */
+  .pagewrap footer .navigation ul li {
+    padding: 10px 14px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  /* line 1112, ../sass/style.scss */
+  .pagewrap header nav .navbar-brand {
+    font-size: 22px;
+  }
+
+  /* line 1120, ../sass/style.scss */
+  .pagewrap .second .breakfast .snacking h1,
+  .pagewrap .five .breakfast .snacking h1,
+  .pagewrap .seven .breakfast .snacking h1,
+  .pagewrap .ten .breakfast .snacking h1 {
+    font-size: 32px;
+  }
+  /* line 1122, ../sass/style.scss */
+  .pagewrap .second .breakfast .snacking h1 span,
+  .pagewrap .five .breakfast .snacking h1 span,
+  .pagewrap .seven .breakfast .snacking h1 span,
+  .pagewrap .ten .breakfast .snacking h1 span {
+    font-size: 45px;
+  }
+  /* line 1126, ../sass/style.scss */
+  .pagewrap .second .breakfast .snacking p,
+  .pagewrap .five .breakfast .snacking p,
+  .pagewrap .seven .breakfast .snacking p,
+  .pagewrap .ten .breakfast .snacking p {
+    font-size: 14px;
+  }
+
+  /* line 1132, ../sass/style.scss */
+  .pagewrap .third .container3 .shop #carouselExampleIndicators2 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .six .container4 .shop #carouselExampleIndicators3 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eight .container5 .shop #carouselExampleIndicators4 .carousel-inner .carousel-item .col-md-4,
+  .pagewrap .eleven .container6 .shop #carouselExampleIndicators5 .carousel-inner .carousel-item .col-md-4 {
+    max-width: 100% !important;
+  }
+  /* line 1138, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 60%;
+  }
+
+  /* line 1147, ../sass/style.scss */
+  .pagewrap footer .lists .menu {
+    width: 100%;
+  }
+  /* line 1149, ../sass/style.scss */
+  .pagewrap footer .lists .menu ul {
+    text-align: center;
+  }
+  /* line 1152, ../sass/style.scss */
+  .pagewrap footer .lists .menu .newsletter {
+    padding: 0%;
+    text-align: center;
+  }
+  /* line 1157, ../sass/style.scss */
+  .pagewrap footer .lists .menu.lastcol {
+    width: 100%;
+  }
+  /* line 1161, ../sass/style.scss */
+  .pagewrap footer .navigation {
+    padding-bottom: 20px;
+  }
+  /* line 1163, ../sass/style.scss */
+  .pagewrap footer .navigation ul li {
+    padding: 10px 13px;
+  }
+}
+@media screen and (max-width: 414px) {
+  /* line 1174, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 62%;
+  }
+}
+@media screen and (max-width: 411px) {
+  /* line 1185, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 62.5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  /* line 1196, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 60.5%;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 1207, ../sass/style.scss */
+  .pagewrap .third .container3 .shop .view hr,
+  .pagewrap .six .container4 .shop .view hr,
+  .pagewrap .eight .container5 .shop .view hr,
+  .pagewrap .eleven .container6 .shop .view hr {
+    width: 58%;
+  }
+}
