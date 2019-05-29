@@ -61,7 +61,11 @@ div {
             }   
             .collapse {
                 form {
-                    margin-left: 20%;
+                    margin-left: 16%;
+                    position: absolute;
+                    ul .dropdown {
+                        position: relative;
+                    }
                     ul li {
                         a {
                             padding-right: 25px !important;
@@ -72,13 +76,22 @@ div {
                                 color: #000000 !important;
                             }
                         }
-                        .search {
-                            width: 58px;
-                            img {
-                                width: 100%;
-                            }
+                    }
+                }
+            }
+            div form {
+                ul li {
+                    .search {
+                        width: 58px;
+                        img {
+                            width: 100%;
                         }
                     }
+                }
+            }
+            .collapse.show {
+                form {
+                    position: initial;
                 }
             }
         }
@@ -868,7 +881,7 @@ div {
                     text-align: left;
                     padding-left: 8%;
                     .subscribe {
-                        label {
+                        label a {
                             background-color: #fff;
                             color: #545454;
                             padding: 2px 20px 3px;
@@ -1002,7 +1015,7 @@ div {
             .col-md-4 {
                 max-width: 45% !important;
                 .checkbox label .checkmark {
-                    left: 35;
+                    left: 20;
                 }
             }
         }
