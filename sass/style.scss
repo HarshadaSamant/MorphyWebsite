@@ -939,7 +939,7 @@ div {
 
 /*--------------------media queries-----------------------*/
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .pagewrap {
         .third .container3 .shop .view hr,
         .six .container4 .shop .view hr,
